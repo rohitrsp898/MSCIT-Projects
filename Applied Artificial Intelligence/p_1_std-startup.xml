@@ -1,0 +1,9 @@
+<aiml version="1.0.1" encoding="UTF-8">
+ <!-- std-startup.xml -->
+ <category>
+  <pattern>LOAD</pattern>
+  <template>
+    <learn>p_1_basic_chat.aiml</learn>
+  </template>
+ </category>
+</aiml>

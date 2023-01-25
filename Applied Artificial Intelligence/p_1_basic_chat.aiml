@@ -1,0 +1,15 @@
+<aiml version="1.0.1" encoding="UTF-8">
+<!-- p_1_basic_chat.aiml -->
+    <category>
+        <pattern>HELLO I AM *</pattern>
+        <template> HELLO <set name="username"> <star/> </set> </template>
+    </category>
+    <category>
+        <pattern>I LIKE * COLOR</pattern>
+        <template><star index="1"/> is a nice color.</template>
+    </category>
+    <category>
+        <pattern>BYE</pattern>
+        <template> BYE <get name="username"/> THANKS FOR THE CONVERSATION.</template>
+    </category>
+</aiml>
